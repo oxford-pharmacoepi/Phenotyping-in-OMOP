@@ -1,0 +1,19 @@
+# Proposed structure for the book
+
+-   Preface
+-   Introduction
+    -   Phenotyping
+    -   Phenotyping process
+-   OMOP CDM vocabularies
+-   Codes in OMOP CDM
+    - Codelists
+    - Codelist with details
+    - Concept set expression
+-   Final remarks
+
+```{r}
+library(CodelistGenerator)
+library(PhenotypeR)
+library(omock)
+library(duckdb)
+```

@@ -1,0 +1,11 @@
+# Final remarks {.unnumbered}
+
+*Drug Utilisation Studies in the OMOP Common Data Model* aims to ...
+
+### Learning more
+
+If you find this book useful then joining the **Tidy R in OMOP** OHDSI working group will likely be of interest. Building on many of the concepts and tools seen in this book, the Tidy R in OMOP OHDSI working group aims to (1) create and promote a unified set of resources to guide Tidy R development in OMOP and support the OHDSI community, and (2) establish an overview of available packages relevant to Tidy R programming in OMOP (tidyverse style packages). If you are interested in joining the working group then please email [Martí Català](mailto:catalasabate@ohdsi.org) or [Raivo Kolde](mailto:kolde@ohdsi.org). 
+
+## Support us
+
+We encourage you to support this work by either citing the book in your papers or documentation, recommending it to your colleagues, or starring the [GitHub repository](https://github.com/OHDSI/Tidy-R-programming-with-OMOP), or simply letting us know how it helped you. Most importantly, please **use it** in research that results in patient benefit.

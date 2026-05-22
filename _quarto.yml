@@ -1,0 +1,29 @@
+project:
+  type: book
+  output-dir: "_site"
+
+book:
+  title: "Phenotyping in the OMOP Common Data Model"
+  author:
+    - name: Martí Català
+    - name: Anna Saura-Lazaro
+    - name: Edward Burn
+  date: today
+  chapters:
+    - index.qmd
+    - structure.qmd
+    - part: introduction/index.qmd
+      chapters:
+        - introduction/vocabularies.qmd
+    - final_remarks.qmd
+
+#bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    titlepage: formal
+    documentclass: scrbook
+    classoption: ["oneside", "open=any"]
+    keep-tex: true
