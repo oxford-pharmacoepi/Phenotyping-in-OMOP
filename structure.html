@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -76,10 +76,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-87b7f55de2e0c9887283481eb31a794c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-48abc47ddc2cbc14860ddec9e9fdb395.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -214,17 +214,74 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Preface</li>
 <li>Introduction
 <ul>
-<li>Phenotyping</li>
-<li>Phenotyping process</li>
+<li>What is Phenotyping</li>
+<li>The phenotyping process</li>
 </ul></li>
-<li>OMOP CDM vocabularies</li>
+<li>Database Diagnostics
+<ul>
+<li>Introduction</li>
+<li>Metadata</li>
+<li>The person table</li>
+<li>The observation period</li>
+<li>Clinical tables</li>
+<li>Record trends</li>
+</ul></li>
+<li>OMOP CDM vocabularies
+<ul>
+<li>Introduction</li>
+<li>Condition based concepts</li>
+<li>Drug based concepts</li>
+<li>Measurement based concepts</li>
+<li>Observation based concepts</li>
+<li>Procedures based concepts</li>
+<li>Devices based concepts</li>
+</ul></li>
 <li>Codes in OMOP CDM
 <ul>
+<li>Introduction</li>
 <li>Codelists</li>
 <li>Codelist with details</li>
 <li>Concept set expression</li>
 </ul></li>
-<li>Final remarks</li>
+<li>Create codelise
+<ul>
+<li>Introduction</li>
+<li>get candidate codelists</li>
+<li>Create a condition based codelist (example stroke)</li>
+<li>Create a</li>
+<li>Create a drug based codelist (example chemotheraphy)</li>
+<li>Create a drug based codelist (example )</li>
+</ul></li>
+<li>Codelist diagnostics
+<ul>
+<li>Code use</li>
+<li>Orphan codes</li>
+<li>Drug exposure diagnostics</li>
+<li>Measurement diagnostics</li>
+</ul></li>
+<li>Create cohorts
+<ul>
+<li>Base cohorts</li>
+<li>Demographic cohorts</li>
+<li>Inclusion criteria</li>
+<li>Set the end date</li>
+<li>Combine cohorts</li>
+<li>Example cohorts (obesity + causal inference centered on a complicated end date e.g.&nbsp;venla study)</li>
+</ul></li>
+<li>Cohort diagnostics
+<ul>
+<li>Counts and attrition</li>
+<li>Characterisation and large scale characterisation</li>
+<li>Matched comparison</li>
+<li>Overlap and timing</li>
+<li>Survival</li>
+</ul></li>
+<li>Population diagnostics
+<ul>
+<li>Incidence</li>
+<li>Prevalence</li>
+</ul></li>
+<li>Study workflow and final remarks</li>
 </ul>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(CodelistGenerator)</span>

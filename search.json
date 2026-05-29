@@ -64,7 +64,7 @@
     "href": "index.html#packages-version",
     "title": "Phenotyping in the OMOP Common Data Model",
     "section": "Packages version",
-    "text": "Packages version\nThis book is rendered using the following version of packages:\n\n\nFinding R package dependencies ... Done!\n\n\n\n\n\n\n\n\nPackage\nVersion\nLink\n\n\n\n\nCodelistGenerator\n4.0.2\n🔗\n\n\nPhenotypeR\n0.4.0\n🔗\n\n\nduckdb\n1.5.2\n🔗\n\n\nomock\n0.6.2\n🔗\n\n\n\n\n\n\n\nNote we only included the packages called explicitly in the book.",
+    "text": "Packages version\nThis book is rendered using the following version of packages:\n\n\nFinding R package dependencies ... Done!\n\n\n\n\n\n\n\n\nPackage\nVersion\nLink\n\n\n\n\nCodelistGenerator\n4.0.2\n🔗\n\n\nPhenotypeR\n0.5.0\n🔗\n\n\nduckdb\n1.5.2\n🔗\n\n\nomock\n0.6.2\n🔗\n\n\n\n\n\n\n\nNote we only included the packages called explicitly in the book.",
     "crumbs": [
       "Preface"
     ]
@@ -74,7 +74,7 @@
     "href": "structure.html",
     "title": "1  Proposed structure for the book",
     "section": "",
-    "text": "Preface\nIntroduction\n\nPhenotyping\nPhenotyping process\n\nOMOP CDM vocabularies\nCodes in OMOP CDM\n\nCodelists\nCodelist with details\nConcept set expression\n\nFinal remarks\n\n\nlibrary(CodelistGenerator)\nlibrary(PhenotypeR)\nlibrary(omock)\nlibrary(duckdb)\n\nLoading required package: DBI",
+    "text": "Preface\nIntroduction\n\nWhat is Phenotyping\nThe phenotyping process\n\nDatabase Diagnostics\n\nIntroduction\nMetadata\nThe person table\nThe observation period\nClinical tables\nRecord trends\n\nOMOP CDM vocabularies\n\nIntroduction\nCondition based concepts\nDrug based concepts\nMeasurement based concepts\nObservation based concepts\nProcedures based concepts\nDevices based concepts\n\nCodes in OMOP CDM\n\nIntroduction\nCodelists\nCodelist with details\nConcept set expression\n\nCreate codelise\n\nIntroduction\nget candidate codelists\nCreate a condition based codelist (example stroke)\nCreate a\nCreate a drug based codelist (example chemotheraphy)\nCreate a drug based codelist (example )\n\nCodelist diagnostics\n\nCode use\nOrphan codes\nDrug exposure diagnostics\nMeasurement diagnostics\n\nCreate cohorts\n\nBase cohorts\nDemographic cohorts\nInclusion criteria\nSet the end date\nCombine cohorts\nExample cohorts (obesity + causal inference centered on a complicated end date e.g. venla study)\n\nCohort diagnostics\n\nCounts and attrition\nCharacterisation and large scale characterisation\nMatched comparison\nOverlap and timing\nSurvival\n\nPopulation diagnostics\n\nIncidence\nPrevalence\n\nStudy workflow and final remarks\n\n\nlibrary(CodelistGenerator)\nlibrary(PhenotypeR)\nlibrary(omock)\nlibrary(duckdb)\n\nLoading required package: DBI",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Proposed structure for the book</span>"
     ]
