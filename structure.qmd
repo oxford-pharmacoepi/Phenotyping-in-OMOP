@@ -2,14 +2,57 @@
 
 -   Preface
 -   Introduction
-    -   Phenotyping
-    -   Phenotyping process
+    -   What is Phenotyping
+    -   The phenotyping process
+- Database Diagnostics
+  - Introduction
+  - Metadata
+  - The person table
+  - The observation period
+  - Clinical tables
+  - Record trends
 -   OMOP CDM vocabularies
+    - Introduction
+    - Condition based concepts
+    - Drug based concepts
+    - Measurement based concepts
+    - Observation based concepts
+    - Procedures based concepts
+    - Devices based concepts
 -   Codes in OMOP CDM
+    - Introduction
     - Codelists
     - Codelist with details
     - Concept set expression
--   Final remarks
+- Create codelise
+  - Introduction
+  - get candidate codelists
+  - Create a condition based codelist (example stroke)
+  - Create a 
+  - Create a drug based codelist (example chemotheraphy)
+  - Create a drug based codelist (example )
+- Codelist diagnostics
+  - Code use
+  - Orphan codes
+  - Drug exposure diagnostics
+  - Measurement diagnostics
+- Create cohorts
+  - Base cohorts
+  - Demographic cohorts
+  - Inclusion criteria
+  - Set the end date
+  - Combine cohorts
+  - Example cohorts (obesity + causal inference centered on a complicated end date e.g. venla study)
+- Cohort diagnostics
+  - Counts and attrition
+  - Characterisation and large scale characterisation
+  - Matched comparison
+  - Overlap and timing
+  - Survival
+- Population diagnostics
+  - Incidence
+  - Prevalence
+- Study workflow and final remarks
 
 ```{r}
 library(CodelistGenerator)
