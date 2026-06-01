@@ -1,28 +1,28 @@
 # Proposed structure for the book
 
--   Preface
--   Introduction
-    -   What is Phenotyping
-    -   The phenotyping process
-    - Clinical description
--   OMOP CDM vocabularies
-    - Introduction
-    - Condition based concepts
-    - Drug based concepts
-    - Measurement based concepts
-    - Observation based concepts
-    - Procedures based concepts
-    - Devices based concepts
--   Codes in OMOP CDM
+- Preface
+- Introduction
+  - What is Phenotyping
+  - The phenotyping process
+  - Clinical description
+- OMOP CDM vocabularies
+  - Introduction
+  - Condition based concepts
+  - Drug based concepts
+  - Measurement based concepts
+  - Observation based concepts
+  - Procedures based concepts
+  - Devices based concepts
+- Codes in OMOP CDM
   - Introduction
   - Codelists
   - Codelist with details
   - Concept set expression
   - get candidate codelists
   - Create a condition based codelist (example stroke)
-  - Create a 
+  - Create a ....
   - Create a drug based codelist (example chemotheraphy)
-  - Create a drug based codelist (example )
+  - Create a drug based codelist (sth that we can stratify by brand, route and dose unit)
 - Create cohorts
   - Base cohorts
   - Demographic cohorts
@@ -52,7 +52,7 @@
   - Population diagnostics
     - Incidence
     - Prevalence
-  - Study workflow and final remarks
+- Study workflow and final remarks
 
 ```{r}
 library(CodelistGenerator)

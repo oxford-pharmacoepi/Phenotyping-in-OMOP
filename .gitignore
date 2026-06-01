@@ -58,3 +58,5 @@ _site/
 
 # Rendered document support files
 *_files/
+
+**/*.quarto_ipynb
