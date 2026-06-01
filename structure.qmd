@@ -7,6 +7,7 @@
   - Clinical description
 - OMOP CDM vocabularies
   - Introduction
+  - Download vocabularies
   - Condition based concepts
   - Drug based concepts
   - Measurement based concepts
