@@ -14,7 +14,10 @@ book:
     - structure.qmd
     - part: introduction/index.qmd
       chapters:
-        - introduction/vocabularies.qmd
+        - introduction/phenotyping_process.qmd
+    - part: omop_cdm_vocabularies/index.qmd
+      chapters:
+        - omop_cdm_vocabularies/download_vocabularies.qmd
     - final_remarks.qmd
 
 #bibliography: references.bib

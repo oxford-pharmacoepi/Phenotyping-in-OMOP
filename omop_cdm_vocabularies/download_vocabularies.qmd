@@ -1,0 +1,14 @@
+# Download vocabularies
+
+In this chapter we explain how to download the OMOP CDM vocabularies and create an OMOP CDM instance with just the vocabulary tables. We will use this OMOP CDM instance to explore the vocabularies in the next chapters.
+
+The OMOP CDM vocabularies are distributed thought [Athena](athena.ohdsi.org) this is a platform where you can explore the different vocabularies, perform searches and explore the hierarchy of the vocabularies. If you want to read more about [Athena](athena.ohdsi.org) you can read the chapter ... from *The book of OHDSI*.
+
+## Download vocabularies
+
+- Create an account in Athena
+- Prepare the vocabularies that you are interested.
+- Download
+- Extract CPT4 *note this step is only needed if *
+- create the cdm_reference
+
