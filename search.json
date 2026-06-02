@@ -80,6 +80,28 @@
     ]
   },
   {
+    "objectID": "omop_cdm_vocabularies/download_vocabularies.html",
+    "href": "omop_cdm_vocabularies/download_vocabularies.html",
+    "title": "3  Download vocabularies",
+    "section": "",
+    "text": "3.1 Download vocabularies\nIn this chapter we explain how to download the OMOP CDM vocabularies and create an OMOP CDM instance with just the vocabulary tables. We will use this OMOP CDM instance to explore the vocabularies in the next chapters.\nThe OMOP CDM vocabularies are distributed thought Athena this is a platform where you can explore the different vocabularies, perform searches and explore the hierarchy of the vocabularies. If you want to read more about Athena you can read the chapter … from The book of OHDSI.",
+    "crumbs": [
+      "The OMOP CDM vocabularies",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Download vocabularies</span>"
+    ]
+  },
+  {
+    "objectID": "omop_cdm_vocabularies/download_vocabularies.html#download-vocabularies",
+    "href": "omop_cdm_vocabularies/download_vocabularies.html#download-vocabularies",
+    "title": "3  Download vocabularies",
+    "section": "",
+    "text": "Create an account in Athena\nPrepare the vocabularies that you are interested.\nDownload\nExtract CPT4 note this step is only needed if \ncreate the cdm_reference",
+    "crumbs": [
+      "The OMOP CDM vocabularies",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Download vocabularies</span>"
+    ]
+  },
+  {
     "objectID": "final_remarks.html",
     "href": "final_remarks.html",
     "title": "Final remarks",
