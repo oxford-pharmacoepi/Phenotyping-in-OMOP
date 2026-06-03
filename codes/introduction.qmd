@@ -1,0 +1,39 @@
+# Introduction
+
+In this chapter we will see the different forms of codelists (`<codelist>`, `<codelist_with_details>` and `<concept_set_expression>`) and we will create some custom codelists and see how to change between them.
+
+For this chapter we will use mainly the [CodelistGenerator]() package and [AthenaR]() to create a reference to the vocabulary database. In this case we will use the OMOP CDM vocabularies of **February 2026**(v20260227).
+
+```{r, eval=FALSE}
+library(CodelistGenerator)
+library(AthenaR)
+library(dplyr)
+
+cdm <- cdmFromVocabulary(vocabulary = "v20260227", source = "duckdb")
+```
+
+```{r, echo=FALSE}
+library(CodelistGenerator)
+library(dplyr)
+
+cdm <- omock::mockCdmFromDataset(source = "duckdb")
+```
+
+
+## `<codelist>`
+
+A `<codelist>` is a named list of codes, we will create codelists with the function `newCodelist()` from the [omopgenerics]() package (omopgenerics is the package that defines all the classes of the objects we use).
+
+```{r}
+codelist <- newCodelist(list(tubercusosis = c(1L, 2L, 3L), covid_19 = c(4L, 5L)))
+codelist
+```
+
+we can easily validate that the codes exists in the cdm using the cdm argument:
+
+```{r}
+codelist <- newCodelist(x = list(tubercusosis = c(1L, 2L, 3L), covid_19 = c(4L, 5L)), cdm = cdm)
+codelist
+```
+
+## `<codelist_with_details>`

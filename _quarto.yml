@@ -18,6 +18,9 @@ book:
     - part: omop_cdm_vocabularies/index.qmd
       chapters:
         - omop_cdm_vocabularies/download_vocabularies.qmd
+    - part: codes/index.qmd
+      chapters:
+        - codes/introduction.qmd
     - final_remarks.qmd
 
 #bibliography: references.bib

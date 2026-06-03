@@ -8,17 +8,16 @@
 - OMOP CDM vocabularies
   - Introduction
   - Download vocabularies
+  - Standard vs Source vocabulary
+  - Vocabularies hierarchy
   - Condition based concepts
   - Drug based concepts
   - Measurement based concepts
   - Observation based concepts
   - Procedures based concepts
   - Devices based concepts
-- Codes in OMOP CDM
+- Codes in the OMOP CDM
   - Introduction
-  - Codelists
-  - Codelist with details
-  - Concept set expression
   - get candidate codelists
   - Create a condition based codelist (example stroke)
   - Create a ....
